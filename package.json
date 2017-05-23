@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "colors-palette": "0.0.4",
+    "electron-reload": "^1.2.0",
     "jquery": "^3.1.1",
     "marked": "^0.3.5",
     "menubar": "^5.2.3",
@@ -30,4 +31,3 @@
     "nodemon": "^1.11.0"
   }
 }
-
