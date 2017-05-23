@@ -5,7 +5,9 @@
   "main": "lib/main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8"
+    "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8",
+    "build-css": "node-sass --include-path scss scss/main.scss lib/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "keywords": [
     "electron",
@@ -21,8 +23,11 @@
   },
   "dependencies": {
     "colors-palette": "0.0.4",
+    "electron-reload": "^1.2.0",
     "jquery": "^3.1.1",
     "marked": "^0.3.5",
-    "webcamjs": "^1.0.22"
+    "menubar": "^5.2.3",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
   }
 }
