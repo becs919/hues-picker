@@ -1,13 +1,19 @@
+body {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif; }
+
 #img-tag {
   width: 400px;
-  box-shadow: 1px 1px 4px #888888; }
+  box-shadow: 1px 1px 4px #888888;
+  margin: 10px 0 0px 10px; }
 
 #open-file {
   margin: 10px;
   height: 25px;
   outline: none;
   background-color: lightgray;
-  border: 1px solid black; }
+  border: 1px solid black;
+  font-weight: 300; }
 
 #open-file:hover {
   box-shadow: 1px 1px 4px #888888; }
@@ -15,7 +21,9 @@
 .content {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 400px; }
+  margin-left: 5px;
+  width: 400px;
+  font-size: 15px; }
 
 .color-content {
   width: 90px;
@@ -23,11 +31,10 @@
   text-align: center; }
 
 .color-div {
-  margin-top: 10px;
   margin-bottom: 4px;
   border: 1px solid black;
   box-shadow: 1px 1px 4px #888888;
-  height: 70px;
+  height: 50px;
   width: 90px; }
 
 .hex-code {

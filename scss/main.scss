@@ -5,9 +5,15 @@ $badass: #bada55;
 
 @import 'variables';
 
+body {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
 #img-tag {
   width: 400px;
-  box-shadow: 1px 1px 4px #888888;
+  box-shadow: $shadow;
+  margin: 10px 0 0px 10px;
 }
 
 #open-file {
@@ -15,17 +21,20 @@ $badass: #bada55;
   height: 25px;
   outline: none;
   background-color: lightgray;
-  border: 1px solid black;
+  border: $border;
+  font-weight: 300;
 }
 
 #open-file:hover {
-  box-shadow: 1px 1px 4px #888888;
+  box-shadow: $shadow;
 }
 
 .content {
   display: inline-flex;
   flex-wrap: wrap;
+  margin-left: 5px;
   width: 400px;
+  font-size: 15px;
 }
 
 .color-content {
@@ -35,17 +44,16 @@ $badass: #bada55;
 }
 
 .color-div {
-  margin-top: 10px;
   margin-bottom: 4px;
-  border: 1px solid black;
-  box-shadow: 1px 1px 4px #888888;
-  height: 70px;
+  border: $border;
+  box-shadow: $shadow;
+  height: 50px;
   width: 90px;
 }
 
 .hex-code {
   margin: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: $border;
   padding-bottom: 5px;
 }
 
