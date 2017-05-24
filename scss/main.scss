@@ -61,3 +61,51 @@ body {
   margin: 0;
   padding-top: 5px;
 }
+
+.upload-another {
+  display: none;
+}
+
+.dragging-label {
+  display: none;
+}
+
+.drag-drop-section {
+  display: block;
+}
+
+.default-label {
+  position: relative;
+  top: 8rem;
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.drop-zone {
+  height: 20rem;
+  width: 400px;
+  background-color: gray;
+}
+
+.dragging {
+  font-weight: 700;
+  .drop-zone-label {
+    position: relative;
+    top: 8rem;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    pointer-events: none;
+    text-transform: uppercase;
+  }
+  .default-label {
+    display: none;
+  }
+  .dragging-label {
+    display: block;
+  }
+}
+
