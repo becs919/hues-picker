@@ -63,9 +63,6 @@ button {
   margin: 0;
   padding-top: 5px; }
 
-.upload-another {
-  display: block; }
-
 .dragging-label {
   display: none; }
 
@@ -73,34 +70,33 @@ button {
   display: block; }
 
 .default-label {
-  position: relative;
   top: 8rem;
   color: black;
-  font-size: 1.8rem;
+  font-size: 20px;
   text-align: center;
   pointer-events: none;
   text-transform: uppercase; }
 
 .drop-zone {
-  height: 20rem;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background-color: gray;
-  display: none; }
+  display: none;
+  position: relative; }
 
 .dragging {
   font-weight: 700; }
   .dragging .drop-zone-label {
-    position: relative;
-    top: 8rem;
     color: black;
-    font-size: 1.8rem;
+    font-size: 20px;
     text-align: center;
     pointer-events: none;
     text-transform: uppercase; }
   .dragging .default-label {
     display: none; }
   .dragging .dragging-label {
-    display: block; }
+    display: block;
+    padding-top: 20px; }
 
 .spinner {
   margin: 100px auto;
