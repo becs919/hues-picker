@@ -54,7 +54,7 @@ button {
   padding-top: 5px; }
 
 .upload-another {
-  display: none; }
+  display: block; }
 
 .dragging-label {
   display: none; }
@@ -74,7 +74,8 @@ button {
 .drop-zone {
   height: 20rem;
   width: 400px;
-  background-color: gray; }
+  background-color: gray;
+  display: none; }
 
 .dragging {
   font-weight: 700; }

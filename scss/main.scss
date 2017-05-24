@@ -71,7 +71,7 @@ button {
 }
 
 .upload-another {
-  display: none;
+  display: block;
 }
 
 .dragging-label {
@@ -96,6 +96,7 @@ button {
   height: 20rem;
   width: 400px;
   background-color: gray;
+  display: none;
 }
 
 .dragging {
