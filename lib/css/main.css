@@ -25,13 +25,22 @@ header {
   background-color: #F2DEDE;
   text-align: center; }
 
-button {
+#open-file, #upload-another {
   margin: 10px;
   height: 25px;
   outline: none;
   background-color: lightgray;
   border: 1px solid black;
   font-weight: 300; }
+
+.btn {
+  border: none;
+  outline: none;
+  width: 20px;
+  height: 20px;
+  color: transparent;
+  background-color: transparent;
+  background: url(../../images/Circle-icons-clipboard.svg) no-repeat; }
 
 #open-file:hover {
   box-shadow: 1px 1px 4px #888888; }
