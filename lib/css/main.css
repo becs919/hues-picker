@@ -7,7 +7,14 @@ body {
   box-shadow: 1px 1px 4px #888888;
   margin: 10px 0 0px 10px; }
 
-#open-file {
+#error-msg {
+  width: 400px;
+  color: red;
+  background-color: #F2DEDE;
+  margin-left: 10px;
+  text-align: center; }
+
+button {
   margin: 10px;
   height: 25px;
   outline: none;
@@ -31,8 +38,6 @@ body {
   text-align: center; }
 
 .color-div {
-  height: 20px;
-  width: 20px; }
   margin-bottom: 4px;
   border: 1px solid black;
   box-shadow: 1px 1px 4px #888888;
@@ -46,7 +51,7 @@ body {
 
 .rgb-code {
   margin: 0;
-  padding-top: 5px;}
+  padding-top: 5px; }
 
 .upload-another {
   display: none; }
