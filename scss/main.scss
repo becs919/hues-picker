@@ -79,10 +79,6 @@ button {
   padding-top: 5px;
 }
 
-.upload-another {
-  display: block;
-}
-
 .dragging-label {
   display: none;
 }
@@ -92,29 +88,27 @@ button {
 }
 
 .default-label {
-  position: relative;
   top: 8rem;
   color: black;
-  font-size: 1.8rem;
+  font-size: 20px;
   text-align: center;
   pointer-events: none;
   text-transform: uppercase;
 }
 
 .drop-zone {
-  height: 20rem;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   background-color: gray;
   display: none;
+  position: relative;
 }
 
 .dragging {
   font-weight: 700;
   .drop-zone-label {
-    position: relative;
-    top: 8rem;
     color: black;
-    font-size: 1.8rem;
+    font-size: 20px;
     text-align: center;
     pointer-events: none;
     text-transform: uppercase;
@@ -124,6 +118,7 @@ button {
   }
   .dragging-label {
     display: block;
+    padding-top: 20px;
   }
 }
 
@@ -149,7 +144,7 @@ button {
   height: 100%;
   width: 6px;
   display: inline-block;
-  
+
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;
 }
@@ -175,15 +170,15 @@ button {
 }
 
 @-webkit-keyframes sk-stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
   20% { -webkit-transform: scaleY(1.0) }
 }
 
 @keyframes sk-stretchdelay {
-  0%, 40%, 100% { 
+  0%, 40%, 100% {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4);
-  }  20% { 
+  }  20% {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
