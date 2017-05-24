@@ -16,7 +16,15 @@ body {
   margin: 10px 0 0px 10px;
 }
 
-#open-file {
+#error-msg {
+  width: 400px;
+  color: red;
+  background-color: #F2DEDE;
+  margin-left: 10px;
+  text-align: center;
+}
+
+button {
   margin: 10px;
   height: 25px;
   outline: none;
@@ -108,4 +116,3 @@ body {
     display: block;
   }
 }
-
