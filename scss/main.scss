@@ -1,26 +1,36 @@
 // npm run build-css
 // npm run watch-css
 
-$badass: #bada55;
-
 @import 'variables';
 
 body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0px;
   font-family: 'Oswald', sans-serif;
+}
+
+header {
+  margin: 5px 0px;
+  padding-bottom: 5px;
+  border-bottom: $border;
+  width: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 #img-tag {
   width: 400px;
   box-shadow: $shadow;
-  margin: 10px 0 0px 10px;
+  margin: 10px 0 0 0;
 }
 
 #error-msg {
   width: 400px;
   color: red;
   background-color: #F2DEDE;
-  margin-left: 10px;
   text-align: center;
 }
 
@@ -40,7 +50,6 @@ button {
 .content {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-left: 5px;
   width: 400px;
   font-size: 15px;
 }
