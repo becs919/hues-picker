@@ -34,7 +34,9 @@ header {
   text-align: center;
 }
 
-#open-file, #upload-another {
+#open-file, 
+#upload-another,
+.save-palette {
   margin: 10px;
   height: 25px;
   outline: none;
@@ -198,4 +200,8 @@ header {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
+}
+
+.save-palette {
+  display: none;
 }

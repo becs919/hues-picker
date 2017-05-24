@@ -25,7 +25,9 @@ header {
   background-color: #F2DEDE;
   text-align: center; }
 
-#open-file, #upload-another {
+#open-file,
+#upload-another,
+.save-palette {
   margin: 10px;
   height: 25px;
   outline: none;
@@ -157,3 +159,6 @@ header {
   20% {
     transform: scaleY(1);
     -webkit-transform: scaleY(1); } }
+
+.save-palette {
+  display: none; }
