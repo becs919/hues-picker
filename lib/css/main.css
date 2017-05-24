@@ -4,3 +4,41 @@
 .color-div {
   height: 20px;
   width: 20px; }
+
+.upload-another {
+  display: none; }
+
+.dragging-label {
+  display: none; }
+
+.drag-drop-section {
+  display: block; }
+
+.default-label {
+  position: relative;
+  top: 8rem;
+  color: black;
+  font-size: 1.8rem;
+  text-align: center;
+  pointer-events: none;
+  text-transform: uppercase; }
+
+.drop-zone {
+  height: 20rem;
+  width: 400px;
+  background-color: gray; }
+
+.dragging {
+  font-weight: 700; }
+  .dragging .drop-zone-label {
+    position: relative;
+    top: 8rem;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    pointer-events: none;
+    text-transform: uppercase; }
+  .dragging .default-label {
+    display: none; }
+  .dragging .dragging-label {
+    display: block; }
