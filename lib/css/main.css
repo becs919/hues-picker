@@ -17,13 +17,14 @@ header {
 #img-tag {
   width: 400px;
   box-shadow: 1px 1px 4px #888888;
-  margin: 40px 50px; }
+  margin: 10px 25px; }
 
 #img-tag:hover {
   cursor: pointer; }
 
 .photo {
-  width: 500px; }
+  width: 450px;
+  padding-top: 20px; }
 
 #error-msg {
   width: 400px;
@@ -63,7 +64,6 @@ header {
 .content {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-left: 15px;
   width: 420px;
   font-size: 15px; }
 
