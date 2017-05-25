@@ -24,7 +24,15 @@ header {
 #img-tag {
   width: 400px;
   box-shadow: $shadow;
-  margin: 10px 0 0 0;
+  margin: 40px 50px;
+}
+
+#img-tag:hover {
+  cursor: pointer;
+}
+
+.photo {
+  width: 500px;
 }
 
 #error-msg {
@@ -34,7 +42,7 @@ header {
   text-align: center;
 }
 
-#open-file, 
+#open-file,
 #upload-another,
 .save-palette {
   margin: 10px;
@@ -62,6 +70,10 @@ header {
 
 #open-file:hover {
   box-shadow: $shadow;
+}
+
+#cs{
+  display: none;
 }
 
 .content {
