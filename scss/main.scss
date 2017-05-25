@@ -24,7 +24,7 @@ header {
 #img-tag {
   width: 400px;
   box-shadow: $shadow;
-  margin: 40px 50px;
+  margin: 10px 25px;
 }
 
 #img-tag:hover {
@@ -32,7 +32,8 @@ header {
 }
 
 .photo {
-  width: 500px;
+  width: 450px;
+  padding-top: 20px;
 }
 
 #error-msg {
@@ -79,7 +80,6 @@ header {
 .content {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-left: 15px;
   width: 420px;
   font-size: 15px;
 }
